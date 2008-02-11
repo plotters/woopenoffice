@@ -26,6 +26,7 @@ document.close();
 = Import a Word (.doc) document and export it as PDF =
 
 {{{
+OOTextDocument document = new OOTextDocument(oos.mxComponentLoader());
 document.setDocumentUrl("file:///Users/probert/Documents/cv-pascal-robert.doc");
 document.load();
 document.exportToPDF("file:///tmp/cv-pascal-robert.pdf", true);
