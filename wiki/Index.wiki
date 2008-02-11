@@ -1,0 +1,5 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+This framework will provide a WebObjects framework to call to OpenOffice.org as a service.
