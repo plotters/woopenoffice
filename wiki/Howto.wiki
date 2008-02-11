@@ -18,7 +18,7 @@ document.load();
 document.insertPlainText("Bonjour");
 document.insertParagraphBreak();
 document.appendParagraph();
-document.insertPlainText("Bonjour 2ième paragraphe");
+document.insertPlainText("Hello");
 document.exportToPDF("file:///tmp/bidon.pdf", true);
 document.close();
 }}}
