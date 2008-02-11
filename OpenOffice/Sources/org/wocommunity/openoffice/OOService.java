@@ -44,21 +44,10 @@ public class OOService {
 	
 	public static class Exception extends java.lang.Exception {
 
-		/**
-		 * Construit l'exception avec le message <code>message</code>.
-		 *
-		 * @param message					le message de l'exception.
-		 */
 		public Exception(String message) {
 			super(message);
 		} // Exception
 
-		/**
-		 * Construit l'exception avec le message <code>message</code> et l'exception responsable <code>cause</code>.
-		 *
-		 * @param message					le message de l'exception.
-		 * @param cause						l'exception responsable.
-		 */
 		public Exception(String message, Throwable cause) {
 			super(message, cause);
 		} // Exception
