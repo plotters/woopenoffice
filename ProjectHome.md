@@ -1,0 +1,1 @@
+This is a collection of classes for creating, loading and exporting files with the help of OpenOffice.org running as a service.
